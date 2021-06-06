@@ -17,27 +17,27 @@ Coursework of Systems Architecture itec3030
 📦[SSDC](https://github.com/phganh/sensorArchitecture/blob/80786227e58a51d54d3d0cf95da3ba33c41991a8/Interfaces/Standards.jar)
 📦[JavaDoc](https://github.com/phganh/sensorArchitecture/blob/80786227e58a51d54d3d0cf95da3ba33c41991a8/JavaDocs/Standards-javadoc.zip)
 ---
-📑 implemnt the system to an apartment:
-- [x] 🛋living room: 2 sensors OmniTempSensorXS3 by OmniTemp Inc
-- [x] 🛏bedroom: 1 OmniTempSensorXS3
-- [x] 🌬use SaharaFurnaceHL42 by Sahara GmbH for furnace component
-- [x] complete the missing parts in Room, Building, Controller, Main classes to build the apt's system
+📎 Room class: models the room and keep track all the devices<br>
+📎 Building class: collection of Rooms and the furnace<br>
+📎 Controller class: models the controller device - collects info from sensors, sends actions to actuators via Room and Building classes<br>
+📎 Main class: where the apartment is built
 
-🌡OmniTempSensorXS3:
+📑 req 1: implement the system to an apartment
+- [x] 2 OmniTempSensorXS3 sensors in living room 🛋 & 1 OmniTempSensorXS3 sensor in bedroom 🛏
+<br>🌡OmniTempSensorXS3:
 📦[SSDCS-compliant driver](https://github.com/phganh/sensorArchitecture/blob/80786227e58a51d54d3d0cf95da3ba33c41991a8/Interfaces/ClassLibrary-Sensor1.jar)
-📦[JavaDoc](https://github.com/phganh/sensorArchitecture/blob/80786227e58a51d54d3d0cf95da3ba33c41991a8/JavaDocs/OmniTempSensor-JavaDoc.zip)<br>
-🌬SaharaFurnaceHL42:
+📦[JavaDoc](https://github.com/phganh/sensorArchitecture/blob/80786227e58a51d54d3d0cf95da3ba33c41991a8/JavaDocs/OmniTempSensor-JavaDoc.zip)
+- [x] 🌬use SaharaFurnaceHL42 furnace
 📦[SSDCS-compliant driver](https://github.com/phganh/sensorArchitecture/blob/80786227e58a51d54d3d0cf95da3ba33c41991a8/Interfaces/ClassLibrary-Furnace.jar)
 📦[JavaDoc](https://github.com/phganh/sensorArchitecture/blob/80786227e58a51d54d3d0cf95da3ba33c41991a8/JavaDocs/Furnace-JavaDoc.zip)
 
----
-📑 implemnt thermostats-ThermoSetX19 to SHC system:
+📑 req 2: thermostates ThermoSetX19 implement the SHC's SSDCS
 - [x] implement SSDCS-compliant driver for ThermoSetX19
 - [x] build ThermoSetX19's documentation
-- [x] implement ThermoSetX19 to the apartment
+- [x] implement ThermoSetX19 to the apartment's design
 
 
-
+📑 req 4:
 - [x] [Description and Models of the system](https://drive.google.com/file/d/1OYRd4QGu8zFz1OGtQFMtCy0CRYKcKgQq/view?usp=sharing)
 
 ✏️knowledge outcome:
