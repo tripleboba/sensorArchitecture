@@ -33,7 +33,7 @@ Coursework of Systems Architecture itec3030
 
 📑 req 2: thermostates ThermoSetX19 implement the SHC's SSDCS
 - [x] implement SSDCS-compliant driver for ThermoSetX19
-- [x] build ThermoSetX19's documentation
+- [x] build ThermoSetX19's documentation and host it on Heroku
 - [x] implement ThermoSetX19 to the apartment's design
 
 
