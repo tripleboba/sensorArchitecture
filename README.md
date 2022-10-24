@@ -38,7 +38,7 @@ Coursework of Systems Architecture itec3030
 
 
 📑 req 4:
-- [x] [Description and Models of the system](https://drive.google.com/file/d/1OYRd4QGu8zFz1OGtQFMtCy0CRYKcKgQq/view?usp=sharing)
+- [x] [Description and Models of the system](https://drive.google.com/file/d/1CxyhxEKsYEFAdQqP1vvTDcu36GwuUXk8/view?usp=sharing)
 
 ✏️knowledge outcome:
 - documentation style, interfaces, abstract classes
