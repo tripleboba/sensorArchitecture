@@ -16,6 +16,7 @@ Coursework of Systems Architecture itec3030
 - Simple Smart Device Collaboration Standard (SSDCS) in form of a set of Java Interfaces: 
 📦[SSDC](https://github.com/phganh/sensorArchitecture/blob/80786227e58a51d54d3d0cf95da3ba33c41991a8/Interfaces/Standards.jar)
 📦[JavaDoc](https://github.com/phganh/sensorArchitecture/blob/80786227e58a51d54d3d0cf95da3ba33c41991a8/JavaDocs/Standards-javadoc.zip)
+- [Requirements Doc with more detail](https://drive.google.com/file/d/1LdPTjp_SRTpl_4amKTGi1PB2ZVAfVcWI/view?usp=sharing)
 ---
 📎 Room class: models the room and keep track all the devices<br>
 📎 Building class: collection of Rooms and the furnace<br>
